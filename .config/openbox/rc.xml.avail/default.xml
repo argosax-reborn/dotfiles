@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!-- default.xml - This is the default rc.xml configuration file -->
-
 <openbox_config xmlns="http://openbox.org/3.4/rc">
   <resistance>
     <strength>10</strength>
@@ -332,7 +330,7 @@
     </keybind>
     <keybind key="W-r">
       <action name="Execute">
-        <command>dmenu_run -fn 'Fixed-10:style=SemiCondensed' -nb '#304050'</command>
+        <command>dmenu_run -fn 'MiscFixed-10:style=SemiCondensed' -nb '#304050'</command>
       </action>
     </keybind>
     <keybind key="W-b">
